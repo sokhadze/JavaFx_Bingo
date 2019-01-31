@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Pane fx:id="mainPane" prefHeight="805.0" prefWidth="1252.0" style="-fx-background-color: #3A3A3C;">
+         <children>
+            <ImageView disable="true" fitHeight="739.0" fitWidth="637.0" layoutX="53.0" layoutY="65.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../stock-vector-blank-bingo-cards-vector-format-427259470.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="117.0" layoutY="250.0" mnemonicParsing="false" onMouseClicked="#pickedNumberEventHandler" prefHeight="65.0" prefWidth="80.0" text="1">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="224.0" layoutY="250.0" mnemonicParsing="false" onMouseClicked="#pickedNumberEventHandler" prefHeight="65.0" prefWidth="80.0" text="2">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="332.0" layoutY="250.0" mnemonicParsing="false" onMouseClicked="#pickedNumberEventHandler" prefHeight="65.0" prefWidth="80.0" text="3">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="442.0" layoutY="250.0" mnemonicParsing="false" onMouseClicked="#pickedNumberEventHandler" prefHeight="65.0" prefWidth="80.0" text="4">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="552.0" layoutY="250.0" mnemonicParsing="false" onMouseClicked="#pickedNumberEventHandler" prefHeight="65.0" prefWidth="80.0" text="5">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="117.0" layoutY="330.0" mnemonicParsing="false" onMouseClicked="#pickedNumberEventHandler" prefHeight="65.0" prefWidth="80.0" text="10">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="224.0" layoutY="330.0" mnemonicParsing="false" onMouseClicked="#pickedNumberEventHandler" prefHeight="65.0" prefWidth="80.0" text="9">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="332.0" layoutY="330.0" mnemonicParsing="false" onMouseClicked="#pickedNumberEventHandler" prefHeight="65.0" prefWidth="80.0" text="8">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="442.0" layoutY="330.0" mnemonicParsing="false" onMouseClicked="#pickedNumberEventHandler" prefHeight="65.0" prefWidth="80.0" text="7">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="552.0" layoutY="330.0" mnemonicParsing="false" onMouseClicked="#pickedNumberEventHandler" prefHeight="65.0" prefWidth="80.0" text="6">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="117.0" layoutY="417.0" mnemonicParsing="false" onMouseClicked="#pickedNumberEventHandler" prefHeight="65.0" prefWidth="80.0" text="11">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="224.0" layoutY="417.0" mnemonicParsing="false" onMouseClicked="#pickedNumberEventHandler" prefHeight="65.0" prefWidth="80.0" text="12">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="332.0" layoutY="417.0" mnemonicParsing="false" onMouseClicked="#pickedNumberEventHandler" prefHeight="65.0" prefWidth="80.0" text="13">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="442.0" layoutY="417.0" mnemonicParsing="false" onMouseClicked="#pickedNumberEventHandler" prefHeight="65.0" prefWidth="80.0" text="14">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="552.0" layoutY="417.0" mnemonicParsing="false" onMouseClicked="#pickedNumberEventHandler" prefHeight="65.0" prefWidth="80.0" text="15">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="116.0" layoutY="500.0" mnemonicParsing="false" onMouseClicked="#pickedNumberEventHandler" prefHeight="65.0" prefWidth="80.0" text="20">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="223.0" layoutY="500.0" mnemonicParsing="false" onMouseClicked="#pickedNumberEventHandler" prefHeight="65.0" prefWidth="80.0" text="19">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="331.0" layoutY="500.0" mnemonicParsing="false" onMouseClicked="#pickedNumberEventHandler" prefHeight="65.0" prefWidth="80.0" text="18">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="441.0" layoutY="500.0" mnemonicParsing="false" onMouseClicked="#pickedNumberEventHandler" prefHeight="65.0" prefWidth="80.0" text="17">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="551.0" layoutY="500.0" mnemonicParsing="false" onMouseClicked="#pickedNumberEventHandler" prefHeight="65.0" prefWidth="80.0" text="16">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="116.0" layoutY="582.0" mnemonicParsing="false" onMouseClicked="#pickedNumberEventHandler" prefHeight="65.0" prefWidth="80.0" text="21">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="223.0" layoutY="582.0" mnemonicParsing="false" onMouseClicked="#pickedNumberEventHandler" prefHeight="65.0" prefWidth="80.0" text="22">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="331.0" layoutY="582.0" mnemonicParsing="false" onMouseClicked="#pickedNumberEventHandler" prefHeight="65.0" prefWidth="80.0" text="23">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="441.0" layoutY="582.0" mnemonicParsing="false" onMouseClicked="#pickedNumberEventHandler" prefHeight="65.0" prefWidth="80.0" text="24">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="551.0" layoutY="582.0" mnemonicParsing="false" onMouseClicked="#pickedNumberEventHandler" prefHeight="65.0" prefWidth="80.0" text="25">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="startbtn" layoutX="322.0" layoutY="678.0" mnemonicParsing="false" onAction="#bingo_start" prefHeight="113.0" prefWidth="320.0" style="-fx-background-color: green;" text="START" textFill="WHITE">
+               <font>
+                  <Font size="53.0" />
+               </font>
+            </Button>
+            <FlowPane fx:id="resultpanel" layoutX="734.0" layoutY="93.0" prefHeight="113.0" prefWidth="446.0" />
+            <Button fx:id="clearBtn" layoutX="96.0" layoutY="677.0" mnemonicParsing="false" onAction="#clearTickert" prefHeight="113.0" prefWidth="211.0" style="-fx-background-color: orange;" text="Clear">
+               <font>
+                  <Font name="System Bold" size="40.0" />
+               </font>
+            </Button>
+            <Label fx:id="usernameLabel" layoutX="103.0" layoutY="40.0" prefHeight="25.0" prefWidth="99.0" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="53.0" layoutY="40.0" text="Hello:" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="223.0" layoutY="44.0" text="Money:" textFill="WHITE" />
+            <Label fx:id="moneyLabel" layoutX="267.0" layoutY="45.0" textFill="WHITE" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

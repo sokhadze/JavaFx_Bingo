@@ -1,0 +1,13 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.butoni {
+	-fx-text-fill: white;
+	-fx-padding: 20px;
+	-fx-font-size: 30px;
+}
+
+.butoni-success {
+	-fx-text-fill: yellow;
+	-fx-padding: 20px;
+	-fx-font-size: 30px;
+}
